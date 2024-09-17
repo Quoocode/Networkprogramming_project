@@ -1,0 +1,10 @@
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\bin\Debug\NotePadOfficial.exe.config
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\bin\Debug\NotePadOfficial.exe
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\bin\Debug\NotePadOfficial.pdb
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\obj\Debug\NotePadOfficial.csproj.AssemblyReference.cache
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\obj\Debug\NotePadOfficial.Form1.resources
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\obj\Debug\NotePadOfficial.Properties.Resources.resources
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\obj\Debug\NotePadOfficial.csproj.GenerateResource.cache
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\obj\Debug\NotePadOfficial.csproj.CoreCompileInputs.cache
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\obj\Debug\NotePadOfficial.exe
+D:\Hoc Tap\bai tap\Laptrinhmnag\NotePadOfficial\NotePadOfficial\obj\Debug\NotePadOfficial.pdb
