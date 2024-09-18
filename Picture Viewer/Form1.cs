@@ -38,6 +38,7 @@ namespace Picture_Viewer
                 var selectedIndex = imageList.SelectedIndices[0];
                 Image selectedImg = LoadedImages[selectedIndex];
                 selectedImage.Image = selectedImg;
+                selectedImage.SizeMode = PictureBoxSizeMode.Zoom;
                 SelectedImageIndex = selectedIndex;
             }
         }
@@ -51,6 +52,7 @@ namespace Picture_Viewer
                 var imagePaths = Directory.GetFiles(selectedDirectory);
                 LoadImagesFromFolder (imagePaths);
                 ImageList images =new ImageList();
+                
                 images.ImageSize = new Size(130, 40);
                 foreach (var image in LoadedImages)
                 {
@@ -62,6 +64,7 @@ namespace Picture_Viewer
                     imageList.Items.Add(new ListViewItem($"Image (itemindex)", itemIndex-1));
                 }
             }
+
         }
 
         private void button_navigation(object sender, EventArgs e)
@@ -73,6 +76,7 @@ namespace Picture_Viewer
                 { 
                     SelectedImageIndex--;
                     Image selectedImg = LoadedImages[SelectedImageIndex];
+                    selectedImage.SizeMode = PictureBoxSizeMode.Zoom;
                     selectedImage.Image = selectedImg;
                     SelectedTheClickedItem(imageList, SelectedImageIndex);
                 }
@@ -101,6 +105,11 @@ namespace Picture_Viewer
                     list.Items[item].Selected = false;
                 }
             }
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
